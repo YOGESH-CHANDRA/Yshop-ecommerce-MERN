@@ -1,0 +1,33 @@
+.slider {
+    width: 100%;
+    margin: auto;
+    height: 485px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card {
+    padding: 1%;
+    margin: 0px auto;
+    position: absolute;
+    transition: 1s ease;
+    border-radius: 5%;
+  }
+  
+  .dir {
+      width: 100%;
+      padding:0 2%;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left,.right{
+    transform: scale(1.5);
+    background-color: transparent;
+    border:none;
+    width: 20px;
+     background-color: rgba(0, 0, 0, 0.3);
+  }

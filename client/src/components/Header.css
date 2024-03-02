@@ -1,0 +1,43 @@
+:root {
+  --brandColor: #8f0101;
+}
+.logo {
+  height: 40px;
+}
+
+.brand-name {
+  font-size: 25px;
+}
+.bname,
+.fa-cart-shopping,
+.login,
+.search {
+  color: var(--brandColor);
+}
+
+.btn-nav,
+.search {
+  border: 1px solid var(--brandColor);
+  color: var(--brandColor);
+  height: 2.4rem;
+  padding:6px;
+  margin-left: 0.2rem;
+}
+
+.cart-icon {
+  color: var(--brandColor);
+  align-self: center;
+  transform: scale(2.7);
+  font-size: 20;
+  /* opacity: 50%; */
+}
+
+.count {
+  color: antiquewhite;
+  margin-top: -15px;
+  margin-left: 8px;
+  font-size: 20px;
+}
+ .cart{
+  margin-left:10px;
+ }

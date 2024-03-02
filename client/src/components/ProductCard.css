@@ -1,0 +1,27 @@
+.productCard-img-top{
+    height: 220px;
+    width: 100%;
+    border-radius: 5% 5% 0 0;
+  }
+
+  .cart{
+    color: white;
+    scale: 0.8;
+    padding-right: 5px;
+    
+  }
+  
+  .add-cart:hover{
+background-color: white;
+color: red;
+  }
+
+  .detail{
+    width: 90px;
+  }
+  
+  .detail:hover{
+    background-color: white;
+color:rgb(53, 53, 250);
+width: 90px;
+  }
